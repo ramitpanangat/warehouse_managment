@@ -127,7 +127,7 @@ fixtures = [
     "Number Card",
     "Workflow",
     "Workflow State",
-    "Workflow Action",
+    "Workflow Action"
     "Custom DocPerm",
     {"dt": "Role", "filters": [["name", "in", ["L1 User", "L2 User", "Store Manager", "Admin"]]]},
     {"dt": "Dashboard Chart", "filters": [["name", "in", ["Request Status"]]]},
