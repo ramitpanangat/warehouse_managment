@@ -117,6 +117,23 @@ app_license = "mit"
 # -----------
 # Permissions evaluated in scripted ways
 
+permission_query_conditions = {
+    "Asset Request": "warehouse_management.warehouse_management.doctype.store_assignment.custom_scripts.asset_request_permission_query",
+    "Item": "warehouse_management.warehouse_management.doctype.store_assignment.custom_scripts.get_item_by_assignment"
+}
+
+fixtures = [
+    "Workspace",
+    "Number Card",
+    "Workflow",
+    "Workflow State",
+    "Workflow Action",
+    "Custom DocPerm",
+    {"dt": "Role", "filters": [["name", "in", ["L1 User", "L2 User", "Store Manager", "Admin"]]]},
+    {"dt": "Dashboard Chart", "filters": [["name", "in", ["Request Status"]]]},
+]
+
+
 # permission_query_conditions = {
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }

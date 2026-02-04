@@ -1,0 +1,128 @@
+[
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 14:55:11.246835",
+  "name": "958n5l4pkc",
+  "permitted_roles": [
+   {
+    "parent": "958n5l4pkc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "L1 User"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00002",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "l1@yopmail.com",
+  "completed_by_role": "L1 User",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 14:58:24.282262",
+  "name": "b1i6fja5p4",
+  "permitted_roles": [
+   {
+    "parent": "b1i6fja5p4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "L1 User"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "l2@yopmail.com",
+  "completed_by_role": "L2 User",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 14:58:30.383218",
+  "name": "b3fapd176t",
+  "permitted_roles": [
+   {
+    "parent": "b3fapd176t",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "L2 User"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending Verification"
+ },
+ {
+  "completed_by": "storemanager@yopmail.com",
+  "completed_by_role": "Store Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 14:59:27.474730",
+  "name": "blaneme1qg",
+  "permitted_roles": [
+   {
+    "parent": "blaneme1qg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Store Manager"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Verified"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "L1 User",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 20:16:24.346797",
+  "name": "5c325jg33l",
+  "permitted_roles": [
+   {
+    "parent": "5c325jg33l",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "L1 User"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00004",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-02-04 20:16:26.808152",
+  "name": "5csu7m7ttp",
+  "permitted_roles": [
+   {
+    "parent": "5csu7m7ttp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "L2 User"
+   }
+  ],
+  "reference_doctype": "Asset Request",
+  "reference_name": "AR-04-02-2026-00004",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Pending Verification"
+ }
+]

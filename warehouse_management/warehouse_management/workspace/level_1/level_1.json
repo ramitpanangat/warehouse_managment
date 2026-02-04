@@ -1,0 +1,86 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"2erTA2bz58\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Dashboard</b></span>\",\"col\":12}},{\"id\":\"9ALqbNALqZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Asset Request\",\"col\":3}},{\"id\":\"aXw9UQizyG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Request List\",\"col\":3}},{\"id\":\"NS7c9xERqa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Items\",\"col\":3}},{\"id\":\"Mlbv0dNwX-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My Stores\",\"col\":3}},{\"id\":\"VWFupZDJwr\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hEgXmI7K9e\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Request\",\"col\":6}},{\"id\":\"lA1qU6HVx5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Request in Draft\",\"col\":6}},{\"id\":\"uriB00cPmA\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"All Asset Request\",\"col\":6}},{\"id\":\"HP2Fn1rEJs\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Request in Draft\",\"col\":6}}]",
+ "creation": "2026-02-04 19:25:08.725502",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Level 1",
+ "links": [],
+ "modified": "2026-02-04 21:46:02.068972",
+ "modified_by": "Administrator",
+ "module": "Warehouse Management",
+ "name": "Level 1",
+ "number_cards": [
+  {
+   "label": "Total Request",
+   "number_card_name": "Total Request"
+  },
+  {
+   "label": "Total Request in Draft",
+   "number_card_name": "Total Draft"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Asset Request",
+   "label": "All Asset Request",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Asset Request",
+   "label": "Request in Draft",
+   "quick_list_filter": "[[\"Asset Request\",\"workflow_state\",\"=\",\"Draft\",false]]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "L1 User"
+  }
+ ],
+ "sequence_id": 29.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Items",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Asset Request",
+   "link_to": "Asset Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "My Stores",
+   "link_to": "Warehouse",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Request List",
+   "link_to": "Asset Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Level 1"
+}

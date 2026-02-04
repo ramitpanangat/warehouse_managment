@@ -1,0 +1,81 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"nPpWlK-sSF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Level 2</span>\",\"col\":12}},{\"id\":\"00sDAsJo-C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Requests\",\"col\":4}},{\"id\":\"5UiMdr3nEj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Items\",\"col\":4}},{\"id\":\"0M99RwqzPf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Store Assignments\",\"col\":4}},{\"id\":\"8QtvmsQTbT\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7iqfhmgGq6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Requests\",\"col\":4}},{\"id\":\"3sYjrcxWzT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Pending Verification\",\"col\":4}},{\"id\":\"DQsGwiI_CH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Verified Request\",\"col\":4}},{\"id\":\"JKszjf6Dew\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"0CFAgXX269\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"All Asset Request\",\"col\":6}},{\"id\":\"UX4ppboNPd\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Request Pending Verification\",\"col\":6}}]",
+ "creation": "2026-02-04 20:32:52.817592",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Level 2",
+ "links": [],
+ "modified": "2026-02-04 21:45:37.953335",
+ "modified_by": "Administrator",
+ "module": "Warehouse Management",
+ "name": "Level 2",
+ "number_cards": [
+  {
+   "label": "Total Requests",
+   "number_card_name": "Total Request"
+  },
+  {
+   "label": "Total Pending Verification",
+   "number_card_name": "Total Pending"
+  },
+  {
+   "label": "Total Verified Request",
+   "number_card_name": "Total Verified"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Asset Request",
+   "label": "All Asset Request",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Asset Request",
+   "label": "Request Pending Verification",
+   "quick_list_filter": "[[\"Asset Request\",\"workflow_state\",\"=\",\"Pending Verification\",false]]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "L2 User"
+  }
+ ],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Requests",
+   "link_to": "Asset Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Items",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Store Assignments",
+   "link_to": "Store Assignment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Level 2"
+}

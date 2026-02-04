@@ -1,0 +1,105 @@
+{
+ "charts": [
+  {
+   "chart_name": "Request Status",
+   "label": "Request Status Overview"
+  }
+ ],
+ "content": "[{\"id\":\"lSZQLmvb3f\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Admin Dashboard</span>\",\"col\":12}},{\"id\":\"YbMupstdek\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Requests\",\"col\":3}},{\"id\":\"6_F0kMTJzu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock\",\"col\":3}},{\"id\":\"qzJFnPxlKK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Store Assignments\",\"col\":3}},{\"id\":\"VnA-TvrahG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Items\",\"col\":3}},{\"id\":\"lgKgr7vFio\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7an1Mupvrc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Requests\",\"col\":4}},{\"id\":\"9oBjvu2ou6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Approved Requests\",\"col\":4}},{\"id\":\"Gf9_Pm_QK9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Rejected Requests\",\"col\":4}},{\"id\":\"zEysNRp1gO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Request in Draft\",\"col\":4}},{\"id\":\"VwDf_RMsVn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Request Verfied\",\"col\":4}},{\"id\":\"tY7LU2fLdR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Pending Verification\",\"col\":4}},{\"id\":\"WkYxEaC9Nt\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Request Status Overview\",\"col\":12}},{\"id\":\"pRzto2bm03\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Asset Request\",\"col\":12}}]",
+ "creation": "2026-02-04 16:09:17.999938",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Admin Dashboard",
+ "links": [],
+ "modified": "2026-02-04 21:15:31.235853",
+ "modified_by": "Administrator",
+ "module": "Warehouse Management",
+ "name": "Admin Dashboard",
+ "number_cards": [
+  {
+   "label": "Total Requests",
+   "number_card_name": "Total Request"
+  },
+  {
+   "label": "Total Pending Verification",
+   "number_card_name": "Total Pending"
+  },
+  {
+   "label": "Total Request in Draft",
+   "number_card_name": "Total Draft"
+  },
+  {
+   "label": "Total Approved Requests",
+   "number_card_name": "Total Approved"
+  },
+  {
+   "label": "Total Request Verfied",
+   "number_card_name": "Total Verified"
+  },
+  {
+   "label": "Total Rejected Requests",
+   "number_card_name": "Total Rejected"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Asset Request",
+   "label": "Asset Request",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Admin"
+  }
+ ],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock",
+   "link_to": "Stock Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Requests",
+   "link_to": "Asset Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Store Assignments",
+   "link_to": "Store Assignment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Items",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Admin Dashboard"
+}
