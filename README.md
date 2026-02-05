@@ -1,5 +1,3 @@
-This is a professional `README.md` structure for your GitHub repository or submission folder. It is designed to impress an interviewer by highlighting your architectural choices and the logic behind your Frappe/ERPNext implementation.
-
 ---
 
 # Multi-Store Asset & Order Management System
