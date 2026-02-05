@@ -30,7 +30,7 @@ app_license = "mit"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/warehouse_management/css/warehouse_management.css"
-# web_include_js = "/assets/warehouse_management/js/warehouse_management.js"
+web_include_js = "/assets/warehouse_management/js/login.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "warehouse_management/public/scss/website"
@@ -83,7 +83,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "warehouse_management.install.before_install"
-# after_install = "warehouse_management.install.after_install"
+after_install = "warehouse_management.custom_scripts.utils.hide_standard_workspaces"
 
 # Uninstallation
 # ------------
@@ -133,6 +133,7 @@ fixtures = [
     {"dt": "Dashboard Chart", "filters": [["name", "in", ["Request Status"]]]},
 ]
 
+on_login = "warehouse_management.custom_scripts.utils.redirect_user"
 
 # permission_query_conditions = {
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
